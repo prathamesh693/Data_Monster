@@ -1,0 +1,32 @@
+{
+  "name": "dataguard-server",
+  "version": "1.0.0",
+  "description": "DataGuard Express backend",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dataguard": "file:..",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.3.2",
+    "mssql": "^12.2.1",
+    "mysql2": "^3.20.0",
+    "pg": "^8.20.0",
+    "snowflake-sdk": "^2.3.6",
+    "sqlite3": "^6.0.1",
+    "tedious": "^19.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
