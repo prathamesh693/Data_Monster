@@ -24,7 +24,7 @@ function QualityScoreDonut({ score = 0 }) {
 
   return (
     <div className="h-[280px] w-full relative">
-      <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none" style={{ top: '50%', transform: 'translateY(-50%)' }}>
+      <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none" style={{ top: '60%', transform: 'translateY(-50%)' }}>
         <span className="text-3xl font-black" style={{ color: getScoreColor(score) }}>{score}%</span>
         <span className="text-[10px] font-bold uppercase tracking-widest text-muted">Quality Health</span>
       </div>
