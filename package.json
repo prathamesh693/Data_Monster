@@ -1,7 +1,7 @@
 {
-  "name": "dataguard",
+  "name": "datamonster",
   "version": "1.0.0",
-  "description": "DataGuard full-stack monorepo",
+  "description": "DataMonster full-stack monorepo",
   "private": true,
   "scripts": {
     "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
