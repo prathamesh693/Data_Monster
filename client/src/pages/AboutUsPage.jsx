@@ -48,7 +48,7 @@ function AboutUsPage() {
           Empowering Data-Driven Excellence
         </h2>
         <p className="text-lg max-w-2xl mx-auto leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-          DataGuard is an intelligent data management platform designed to provide complete visibility, 
+          DataMonster is an intelligent data management platform designed to provide complete visibility, 
           security, and quality assurance for your enterprise data assets.
         </p>
       </div>
@@ -73,7 +73,7 @@ function AboutUsPage() {
       </div>
 
       {/* Importance Section */}
-      <Card title="Why DataGuard Matters">
+      <Card title="Why DataMonster Matters">
         <div className="grid gap-8 md:grid-cols-2 py-4">
           <div className="space-y-4">
             <h3 className="text-xl font-bold" style={{ color: "var(--text-primary)" }}>
@@ -81,7 +81,7 @@ function AboutUsPage() {
             </h3>
             <p className="text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               In today's digital economy, data is the most valuable asset. However, raw data is often 
-              fragmented, inconsistent, or exposed. DataGuard bridges this gap by providing a 
+              fragmented, inconsistent, or exposed. DataMonster bridges this gap by providing a 
               centralized command center for data health.
             </p>
             <p className="text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
