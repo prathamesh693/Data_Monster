@@ -1,7 +1,7 @@
 {
-  "name": "dataguard-server",
+  "name": "datamonster-server",
   "version": "1.0.0",
-  "description": "DataGuard Express backend",
+  "description": "DataMonster Express backend",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.6",
-    "dataguard": "file:..",
+    "datamonster": "file:..",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "ioredis": "^5.10.1",
