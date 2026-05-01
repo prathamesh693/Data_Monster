@@ -98,7 +98,7 @@ function DashboardPage() {
     doc.setTextColor(255, 255, 255);
     doc.setFontSize(22);
     doc.setFont("helvetica", "bold");
-    doc.text("DataGuard Intelligence Report", 40, 45);
+    doc.text("DataMonster Intelligence Report", 40, 45);
     
     doc.setFontSize(10);
     doc.setFont("helvetica", "normal");
