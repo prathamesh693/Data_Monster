@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api", (_req, res) => {
-  res.json({ message: "Welcome to DataGuard API." });
+  res.json({ message: "Welcome to DataMonster API." });
 });
 
 app.use("/api/health", healthRouter);
